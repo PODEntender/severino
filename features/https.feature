@@ -4,7 +4,7 @@ Feature: HTTPS
     Given I am on "/"
     Then the attribute "href" from "a[href*='http']" element must be "https://"
 
-  Scenario: Todos os endereços de emtadados devem estar em https
+  Scenario: Todos os endereços de metadados devem estar em https
     Given I am on "/"
     Then the attribute "href" from "a[href*='http']" element must be "https://"
 
@@ -21,4 +21,4 @@ Feature: HTTPS
 
   Scenario: Todos os assets js do website devem estar em https
     Given I am on "/"
-    Then the attribute "src" from "script[src*='http']" element must be "https://"
+    Then the attribute "src" from "script[src*='http'][src*='.js']" element must be "https://"
