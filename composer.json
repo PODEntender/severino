@@ -1,0 +1,22 @@
+{
+    "name": "podentender/severino",
+    "description": "Componente cara-crachá do site https://podentender.com",
+    "type": "project",
+    "require": {
+        "behat/behat": "^3.5",
+        "behat/mink": "^1.7",
+        "behat/mink-goutte-driver": "^1.2",
+        "behat/mink-extension": "^2.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nawarian",
+            "email": "nickolas@phpsp.org.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "scripts": {
+        "behat": "behat"
+    }
+}
