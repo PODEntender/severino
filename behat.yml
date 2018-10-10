@@ -1,7 +1,7 @@
 default:
   extensions:
     Behat\MinkExtension:
-      base_url: https://podentender.com
+      base_url: https://estatista.podentender.com/
       sessions:
-        main_session:
+        default:
           goutte: ~
