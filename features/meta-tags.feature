@@ -17,5 +17,5 @@ Feature: Meta tags
     And the attribute "content" from "meta[name='twitter:title']" element must be "PODEntender - Podcast de divulgação científica e muita fuleragem"
     And the attribute "content" from "meta[name='twitter:url']" element must be "/"
     And the attribute "content" from "meta[name='twitter:site']" element must be "@podentender"
-    And the attribute "content" from "meta[name='twitter:image']" element must be "/assets/images/logo.png"
+    And the attribute "content" from "meta[name='twitter:image']" element must be "/assets/images/logo-twitter-card.jpg"
     And the attribute "content" from "meta[name='twitter:creator']" element must be "@podentender"
