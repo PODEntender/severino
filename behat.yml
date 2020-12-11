@@ -1,7 +1,7 @@
 default:
   extensions:
     Behat\MinkExtension:
-      base_url: https://podentender.com/
+      base_url: https://podentender.com.br/
       sessions:
         default:
           goutte: ~
